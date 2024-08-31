@@ -5,11 +5,10 @@
   margin: 0;
   font-family: "Honk", system-ui;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "MORF" 15,
-    "SHLN" 50;
+    "MORF" 0,
+    "SHLN" 10;
 }
 
 /*tools*/
@@ -103,6 +102,73 @@ nav {
   top: 70%; 
   transform: translate(-50%, -50%); 
 }
+
+
+.MainSection .contact {
+  display: none;
+  height: 100vh;
+  background-color: black;
+  transition: width 2s;
+}
+
+.MainSection .contact .text_section {
+  text-align: center;
+  position: absolute;
+  font-size: 30px;
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.MainSection .contact .button_section{
+  position: absolute;
+  font-size: 50px;
+  left: 50%; 
+  top: 70%; 
+  transform: translate(-50%, -50%); 
+}
+
+
+.MainSection .skills {
+  display: none;
+  height: 100vh;
+  background-color: black;
+  transition: width 2s;
+}
+
+.MainSection .skills .text_section {
+  text-align: center;
+  position: absolute;
+  font-size: 30px;
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.MainSection .skills .image_section{
+  width: 100vw;
+  height:100vh;
+  border-radius: 30px;
+  position: absolute;
+  font-size: 50px;
+  left: 50%; 
+  top: 45%; 
+  transform: translate(-50%, -50%); 
+}
+.MainSection .skills .image_section img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.MainSection .skills .button_section{
+  position: absolute;
+  font-size: 50px;
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
 
 
 /* BottomBar */
