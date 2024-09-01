@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 * {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  font-family: "Honk", system-ui;
+  font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "MORF" 0,
-    "SHLN" 10;
 }
 
 /*tools*/
