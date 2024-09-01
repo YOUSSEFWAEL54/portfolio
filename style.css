@@ -209,7 +209,7 @@ nav {
   .menu {
     flex-direction: column;
     background-color: blue;
-    align-items: start;
+    align-items: center;
     position: absolute;
     top: 85px;
     left: 0;
