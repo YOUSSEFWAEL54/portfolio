@@ -1,4 +1,4 @@
-# portfolio:
+# how i make it:
 js from chatgpt <br />
 navbar an its style from codepen
 # usage:
