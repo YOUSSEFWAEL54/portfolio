@@ -145,33 +145,6 @@ nav {
 
 
 
-
-
-.MainSection .contact {
-  display: none;
-  height: 100vh;
-  background-color: black;
-  transition: width 2s;
-}
-
-.MainSection .contact .text_section {
-  text-align: center;
-  position: absolute;
-  font-size: 30px;
-  left: 50%; 
-  top: 50%; 
-  transform: translate(-50%, -50%); 
-}
-
-.MainSection .contact .button_section{
-  position: absolute;
-  font-size: 50px;
-  left: 50%; 
-  top: 70%; 
-  transform: translate(-50%, -50%); 
-}
-
-
 .MainSection .skills {
   display: none;
   height: 100vh;
