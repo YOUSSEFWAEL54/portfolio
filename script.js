@@ -18,9 +18,5 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
-  document.querySelector('.skills .blue-btn').addEventListener('click', function() {
-    showSection('.contact');
-  });
-
   showSection('.about_me');
 });
